@@ -3,14 +3,21 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/KULIAH/Binar/Materi/Challage2/app/src/main/res/drawable/ic_baseline_account_circle_24.xml" value="0.1525" />
+        <entry key="..\:/KULIAH/Binar/Materi/Challage2/app/src/main/res/drawable/ic_baseline_edit_24.xml" value="0.1525" />
+        <entry key="..\:/KULIAH/Binar/Materi/Challage2/app/src/main/res/drawable/ic_baseline_keyboard_arrow_right_24.xml" value="0.1525" />
+        <entry key="..\:/KULIAH/Binar/Materi/Challage2/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.1525" />
+        <entry key="..\:/KULIAH/Binar/Materi/Challage2/app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.1525" />
+        <entry key="..\:/KULIAH/Binar/Materi/Challage2/app/src/main/res/drawable/ic_baseline_shopping_cart_24.xml" value="0.1525" />
         <entry key="..\:/KULIAH/Binar/Materi/Challage2/app/src/main/res/drawable/ic_chat.xml" value="0.108" />
         <entry key="..\:/KULIAH/Binar/Materi/Challage2/app/src/main/res/drawable/ic_dashboard_black_24dp.xml" value="0.167" />
         <entry key="..\:/KULIAH/Binar/Materi/Challage2/app/src/main/res/drawable/ic_home_black_24dp.xml" value="0.108" />
         <entry key="..\:/KULIAH/Binar/Materi/Challage2/app/src/main/res/drawable/ic_pesanan.xml" value="0.108" />
         <entry key="..\:/KULIAH/Binar/Materi/Challage2/app/src/main/res/drawable/ic_promo.xml" value="0.108" />
+        <entry key="..\:/KULIAH/Binar/Materi/Challage2/app/src/main/res/drawable/ic_shopping_cart.xml" value="0.1525" />
         <entry key="..\:/KULIAH/Binar/Materi/Challage2/app/src/main/res/layout/activity_navigation.xml" value="0.1578125" />
         <entry key="..\:/KULIAH/Binar/Materi/Challage2/app/src/main/res/layout/fragment_dashboard.xml" value="0.1578125" />
-        <entry key="..\:/KULIAH/Binar/Materi/Challage2/app/src/main/res/layout/fragment_home.xml" value="0.1578125" />
+        <entry key="..\:/KULIAH/Binar/Materi/Challage2/app/src/main/res/layout/fragment_home.xml" value="0.22" />
         <entry key="..\:/KULIAH/Binar/Materi/Challage2/app/src/main/res/layout/fragment_notifications.xml" value="0.1578125" />
         <entry key="..\:/KULIAH/Binar/Materi/Challage2/app/src/main/res/layout/fragment_pesanan.xml" value="0.14666666666666667" />
         <entry key="..\:/KULIAH/Binar/Materi/Challage2/app/src/main/res/menu/bottom_nav_menu.xml" value="0.12954253954681488" />
