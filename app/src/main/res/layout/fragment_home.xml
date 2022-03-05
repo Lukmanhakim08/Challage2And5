@@ -13,50 +13,13 @@
     <androidx.core.widget.NestedScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
             
-            <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-
-                <ImageView
-                    android:scaleType="centerCrop"
-                    android:layout_width="wrap_content"
-                    android:layout_height="70dp"
-                    android:src="@drawable/asset_top_bg"/>
-
-                <LinearLayout
-                    android:gravity="center_vertical"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:paddingHorizontal="10dp">
-
-                    <androidx.appcompat.widget.AppCompatImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="match_parent"
-                        app:tint="@color/white"
-                        android:src="@drawable/ic_placeholder"/>
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Dikirim ke"
-                        android:textSize="12sp"
-                        android:textColor="@color/white"/>
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Dikirim ke"
-                        android:textSize="12sp"
-                        android:textColor="@color/white"
-                        android:textStyle="bold"
-                        android:layout_marginStart="3sp"/>
-                </LinearLayout>
-
-            </RelativeLayout>
+            <include layout="@layout/layout_home_member" />
 
         </LinearLayout>
 
