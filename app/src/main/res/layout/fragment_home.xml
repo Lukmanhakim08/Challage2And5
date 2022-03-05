@@ -25,10 +25,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
-                app:spanCount="5"
+                app:spanCount="6"
                 tools:listitem="@layout/item_home_category"
                 android:orientation="vertical"
-                tools:itemCount="5"/>
+                tools:itemCount="6"/>
 
             <HorizontalScrollView
                 android:scrollbars="none"

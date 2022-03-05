@@ -18,4 +18,5 @@
     <color name="colorPrimary_500">#09AF00</color>
     <color name="colorPrimary_600">#008E00</color>
     <color name="colorPrimary_700">#007D00</color>
+    <color name="colorRed_50">#D3EA0772</color>
 </resources>
