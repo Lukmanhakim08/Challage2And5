@@ -10,10 +10,10 @@
     android:orientation="vertical">
 
     <ImageView
-        android:layout_width="250dp"
+        android:layout_width="380dp"
         android:scaleType="centerCrop"
-        android:layout_height="160dp"
-        android:src="@drawable/asset_slider1"/>
+        android:layout_height="120dp"
+        android:src="@drawable/asset_slider2"/>
 
 
 </com.google.android.material.card.MaterialCardView>

@@ -8,4 +8,14 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="green">#3BDA17</color>
+    <color name="pink">#CC0957</color>
+
+    <color name="colorPrimary_50">#E6F5E4</color>
+    <color name="colorPrimary_100">#C2E6BC</color>
+    <color name="colorPrimary_200">#9AD691</color>
+    <color name="colorPrimary_300">#6DC762</color>
+    <color name="colorPrimary_400">#47BB3D</color>
+    <color name="colorPrimary_500">#09AF00</color>
+    <color name="colorPrimary_600">#008E00</color>
+    <color name="colorPrimary_700">#007D00</color>
 </resources>

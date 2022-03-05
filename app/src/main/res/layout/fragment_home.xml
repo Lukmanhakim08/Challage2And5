@@ -18,7 +18,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
-            
+
             <include layout="@layout/layout_home_member" />
 
             <androidx.recyclerview.widget.RecyclerView
@@ -28,7 +28,69 @@
                 app:spanCount="5"
                 tools:listitem="@layout/item_home_category"
                 android:orientation="vertical"
-                tools:itemCount="10"/>
+                tools:itemCount="5"/>
+
+            <HorizontalScrollView
+                android:scrollbars="none"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10sp">
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                        tools:ignore="SpeakableTextPresentCheck"
+                        tools:itemCount="3"
+                        tools:listitem="@layout/item_home_slider" />
+
+                </RelativeLayout>
+
+            </HorizontalScrollView>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+                app:spanCount="5"
+                tools:listitem="@layout/item_home_category"
+                android:orientation="vertical"
+                tools:itemCount="5"/>
+
+            <RelativeLayout
+                android:layout_marginHorizontal="10sp"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/txt_diskon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Video menarik untukmu"
+                    android:textColor="@color/black"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:text="Lihat semua"
+                    android:textColor="@color/green"
+                    android:textSize="13dp"
+                    android:textStyle="bold" />
+
+
+            </RelativeLayout>
 
             <HorizontalScrollView
                 android:scrollbars="none"
@@ -47,35 +109,109 @@
                         android:orientation="horizontal"
                         app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
                         tools:itemCount="3"
-                        tools:listitem="@layout/item_home_slider" />
+                        tools:listitem="@layout/item_home_videos" />
 
                 </RelativeLayout>
 
             </HorizontalScrollView>
 
-
-            <HorizontalScrollView
-                android:scrollbars="none"
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_marginHorizontal="10sp"
+                android:layout_marginTop="10dp"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_marginTop="10dp">
+                android:layout_height="wrap_content">
 
-                <RelativeLayout
+                <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="10sp">
+                    android:text="Kejar Diskon"
+                    android:textColor="@color/black"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
 
-                    <androidx.recyclerview.widget.RecyclerView
-                        android:layout_width="match_parent"
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:orientation="horizontal"
-                        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
-                        tools:itemCount="3"
-                        tools:listitem="@layout/item_home_slider" />
+                        android:text="Berakhir dalam"
+                        android:textSize="12dp"
+                        android:gravity="center_horizontal"/>
 
-                </RelativeLayout>
+                    <com.google.android.material.card.MaterialCardView
+                        android:layout_marginHorizontal="10sp"
+                        android:backgroundTint="@color/pink"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:cardCornerRadius="10sp">
 
-            </HorizontalScrollView>
+                        <LinearLayout
+                            android:layout_marginLeft="5sp"
+                            android:layout_marginRight="5sp"
+                            android:gravity="center_vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <androidx.appcompat.widget.AppCompatImageView
+                                android:layout_width="15sp"
+                                android:layout_height="15sp"
+                                android:src="@drawable/ic_baseline_access_time_24"
+                                android:tint="@color/white"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="2sp"
+                                android:text="9 Menit 24 detik"
+                                android:textSize="12sp"
+                                android:textColor="@color/white"/>
+
+                        </LinearLayout>
+
+                    </com.google.android.material.card.MaterialCardView>
+
+
+                    <RelativeLayout
+                        android:layout_marginHorizontal="10sp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:text="Lihat semua"
+                            android:textColor="@color/green"
+                            android:textSize="13dp"
+                            android:textStyle="bold" />
+
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_marginTop="10sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp">
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                    tools:itemCount="3"
+                    tools:listitem="@layout/item_home_produk_terlaris" />
+
+            </RelativeLayout>
 
         </LinearLayout>
 

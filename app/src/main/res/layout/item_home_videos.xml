@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginRight="10sp"
+    app:cardCornerRadius="8sp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_marginBottom="5sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="130sp"
+            android:layout_height="100sp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/asset_produk1"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5sp"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="3sp"
+                android:text="Kep and Calm With"
+                android:textSize="12sp"
+                android:textColor="@color/black"/>
+
+            <LinearLayout
+                android:gravity="center_vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5sp"
+                    android:text="UCHII"
+                    android:textSize="11sp"
+                    android:textColor="@color/black"/>
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_width="10sp"
+                    android:layout_height="10sp"
+                    app:tint="#FFC107"
+                    android:src="@drawable/ic_baseline_star_24"/>
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5sp"
+                android:layout_marginHorizontal="3sp"
+                android:text="Uchii store"
+                android:textSize="9sp" />
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+
+</com.google.android.material.card.MaterialCardView>
