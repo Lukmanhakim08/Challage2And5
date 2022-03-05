@@ -8,79 +8,58 @@
     tools:context=".ui.home.HomeFragment"
     android:orientation="vertical">
 
-    <RelativeLayout
+    <include layout="@layout/fragment_home_toolbar"/>
+
+    <androidx.core.widget.NestedScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/green"
-        android:paddingHorizontal="10dp"
-        android:paddingVertical="8dp">
-
-        <com.google.android.material.card.MaterialCardView
-            android:layout_width="match_parent"
-            android:layout_height="30dp"
-            android:layout_marginRight="10dp"
-            android:layout_toLeftOf="@+id/ly_icon"
-            app:cardCornerRadius="12dp">
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-
-                <androidx.appcompat.widget.AppCompatImageView
-                    android:layout_marginHorizontal="5dp"
-                    android:src="@drawable/ic_baseline_search_24"
-                    android:layout_width="21dp"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="10dp"/>
-                <TextView
-                    android:layout_gravity="center_vertical"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Cari Product disini"
-                    android:textSize="20dp"/>
-
-            </LinearLayout>
-
-        </com.google.android.material.card.MaterialCardView>
-
+        android:layout_height="wrap_content">
         <LinearLayout
-            android:layout_centerVertical="true"
-            android:id="@+id/ly_icon"
-            android:layout_alignParentRight="true"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal">
+            android:orientation="vertical">
+            
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
 
-            <androidx.appcompat.widget.AppCompatImageView
-                app:tint="@color/white"
-                android:layout_marginHorizontal="5dp"
-                android:src="@drawable/ic_envelope"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"/>
+                <ImageView
+                    android:scaleType="centerCrop"
+                    android:layout_width="wrap_content"
+                    android:layout_height="70dp"
+                    android:src="@drawable/asset_top_bg"/>
 
-            <androidx.appcompat.widget.AppCompatImageView
-                app:tint="@color/white"
-                android:layout_marginHorizontal="5dp"
-                android:src="@drawable/ic_notification"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"/>
+                <LinearLayout
+                    android:gravity="center_vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingHorizontal="10dp">
 
-            <androidx.appcompat.widget.AppCompatImageView
-                app:tint="@color/white"
-                android:layout_marginHorizontal="5dp"
-                android:src="@drawable/ic_shopping_cart"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"/>
+                    <androidx.appcompat.widget.AppCompatImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        app:tint="@color/white"
+                        android:src="@drawable/ic_placeholder"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Dikirim ke"
+                        android:textSize="12sp"
+                        android:textColor="@color/white"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Dikirim ke"
+                        android:textSize="12sp"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"
+                        android:layout_marginStart="3sp"/>
+                </LinearLayout>
 
-            <androidx.appcompat.widget.AppCompatImageView
-                app:tint="@color/white"
-                android:layout_marginStart="5dp"
-                android:src="@drawable/ic_menu"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"/>
+            </RelativeLayout>
 
         </LinearLayout>
 
-    </RelativeLayout>
+    </androidx.core.widget.NestedScrollView>
+
 </LinearLayout>
