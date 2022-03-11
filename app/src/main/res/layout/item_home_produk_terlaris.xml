@@ -75,7 +75,7 @@
 
                 <androidx.appcompat.widget.AppCompatImageView
                     android:layout_width="20sp"
-                    android:layout_height="20sp"
+                    android:layout_height="10sp"
                     app:tint="#FFC107"
                     android:src="@drawable/ic_baseline_star_24"/>
 
@@ -83,8 +83,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="2sp"
-                    android:text="Jakarta Barat"
-                    android:textSize="12sp" />
+                    android:text="5.0 | Teerjual 1.1K"
+                    android:textSize="9sp" />
 
             </LinearLayout>
 
