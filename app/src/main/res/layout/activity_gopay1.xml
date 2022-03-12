@@ -353,13 +353,13 @@
                         android:layout_gravity="center"
                         android:layout_width="60dp"
                         android:layout_height="60dp"
-                        android:src="@drawable/ic_indotransit"/>
+                        android:src="@drawable/go_pulsa"/>
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:text="GoTransit"/>
+                        android:text="GoPulsa"/>
                 </LinearLayout>
 
                 <LinearLayout
@@ -371,7 +371,7 @@
                         android:layout_gravity="center"
                         android:layout_width="60dp"
                         android:layout_height="60dp"
-                        android:src="@drawable/ic_indomall"/>
+                        android:src="@drawable/check_in"/>
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -388,7 +388,7 @@
                         android:layout_gravity="center"
                         android:layout_width="60dp"
                         android:layout_height="60dp"
-                        android:src="@drawable/ic_indosend"/>
+                        android:src="@drawable/semua"/>
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -624,5 +624,6 @@
         </LinearLayout>
 
     </androidx.core.widget.NestedScrollView>
+
 
 </LinearLayout>
